@@ -111,6 +111,3 @@ def battle(knight_config: dict) -> dict:
         mordred["name"]: mordred["hp"],
         red_knight["name"]: red_knight["hp"],
     }
-
-
-print(battle(KNIGHTS))
